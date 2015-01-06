@@ -1,0 +1,181 @@
+/* Diseño "Individual" creado por Mundo Spooffy para PWG-Pro  */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+*{
+	box-sizing: border-box !important;
+}
+
+body{
+	background: #ededed;
+	margin: 0;
+	font-family: "Open Sans";
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+}
+
+#pagina{
+	margin-top: 50px;
+	width: 800px;
+	display: inline-block;
+}
+
+header{
+	height: 200px;
+}
+
+#avatar{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+#datos{
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 590px;
+}
+
+#datos h1{
+	font-size: 50px;
+	font-family: "Kaushan Script";
+	line-height: 16px;
+}
+
+
+#contenido{
+	color: #444;
+	background: white;
+	padding: 25px;
+	font-size: 18px;
+	text-align: left;
+}
+
+#contenido h1{
+	font-size: 31px;
+}
+#contenido h2{
+	font-size: 27px;
+}
+#contenido h3{
+	font-size: 23px;
+}
+#contenido h4{
+	font-size: 19px;
+}
+
+nav{
+	margin-top: 30px;
+	padding: 5px 0;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 8px;
+}
+
+nav ul li a{
+	font-family: "Kaushan Script";
+	color: white;
+	font-size: 23px;
+}
+
+
+.fb:before{
+	content: "\f30d";
+}
+
+.tw:before{
+	content: "\f30a";
+}
+
+.gg:before{
+	content: "\f310";
+}
+
+.pt:before{
+	content: "\f313";
+}
+
+.tb:before{
+	content: "\f316";
+}
+
+.in:before{
+	content: "\f32d";
+}
+.icono{
+	color: #777;
+	font-family: "entypo";
+	font-size: 30px;
+}
+.icono:hover{
+	color: #aaa;
+}
+
+footer{
+	background: #333;
+	color: white;
+	font-size: 13px;
+	padding: 20px;
+}
+
+form{
+	text-align: center;
+}
+
+input,textarea,button{
+	display: block;
+	margin: 0 auto;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"], input[type="range"], input[type="email"], textarea{
+	border: 1px solid #777;
+	padding: 10px 6px;
+	width: 350px !important;
+	font-family: "Open Sans";
+	color: #333;
+	font-size: 16px;
+	resize: none;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], button{
+	border: none;
+	border-radius: 3px;
+	font-family: "Open Sans";
+	color: white;
+	font-size: 18px;
+	padding: 10px 30px;
+}
+
+*[type="reset"]{
+	background: #C6CACB;
+}
+
+@media screen and (max-width: 800px){
+	#pagina{
+		width: 100%;
+	}
+	header{
+		height: auto;
+	}
+	#datos span{
+		max-width: 100%;
+	}
+	input[type="text"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"], input[type="range"], input[type="email"], textarea{
+		width: 90% !important;
+	}
+}

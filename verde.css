@@ -1,0 +1,35 @@
+*[type="button"]{
+	background: #539D4B;
+}
+
+*[type="submit"]{
+	background: #447b3e;
+}
+
+a{
+	color: #447b3e;
+}
+
+#contenido h1, #contenido h2, #contenido h3, #contenido h4{
+	color: #447b3e;
+}
+
+#datos h1{
+	color: #447b3e;
+}
+
+#datos span{
+	color: #60a059;
+}
+
+hr{
+	border: solid 2px #447b3e;
+}
+
+nav{
+	background: #447b3e;
+}
+
+nav ul li a:hover{
+	color: #60a059;
+}
